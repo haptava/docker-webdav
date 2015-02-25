@@ -3,7 +3,9 @@ FROM dockerfile/java:oracle-java8
 MAINTAINER Paul Ambrose "pambrose@mac.com"
 
 ADD http://downloads.haptava.io/releases/0.9.39/log4j/webdav.log4j.properties /haptava/log4j/
-ADD http://downloads.haptava.io/releases/0.9.39/jars/webdav.jar /haptava/lib/
+ADD http://downloads.haptava.io/releases/0.9.39/lib/webdav.jar /haptava/lib/
+
+EXPOSE 8080
 
 WORKDIR /haptava
 
