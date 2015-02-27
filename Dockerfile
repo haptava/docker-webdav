@@ -18,4 +18,4 @@ ENTRYPOINT ["java", \
             "-jar", "./lib/webdav.jar"]
 
 # docker run -it --entrypoint=/bin/bash haptava/webdav:0.9.39
-# docker run -it haptava/webdav:0.9.39 -u fred -p topsecret
+# docker run -d haptava/webdav:0.9.39 -u fred -p topsecret
